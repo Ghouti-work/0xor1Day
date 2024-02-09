@@ -19,6 +19,7 @@ header {
     align-items: center;
     z-index: 10000;
     backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
 }
 
 header .logo {
@@ -258,7 +259,7 @@ header ul li:hover a {
 }
 
 .onlinecoursehost-certificate-embed {
-min-height: 620px;
+    min-height: 620px;
 }
 
 @media screen and (max-width: 600px) {
